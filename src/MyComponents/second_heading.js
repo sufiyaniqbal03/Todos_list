@@ -4,15 +4,12 @@ function Second_heading() {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [deadline, setDeadline] = useState('');
-
   const handleTitleChange = (event) => {
     setTitle(event.target.value);
   };
-
   const handleDescriptionChange = (event) => {
     setDescription(event.target.value);
   };
-
   const handleDeadlineChange = (event) => {
     setDeadline(event.target.value);
   };
